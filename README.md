@@ -82,5 +82,7 @@ WV-2_64: data from WorldView-2 satellite, MS images cut into (64, 64, 4), PAN im
 
 # Raw Images 
 
-link：https://pan.baidu.com/s/1FfDSsxlBMUPsJXjbxKEIhQ 
+(Baidu Drive)link：https://pan.baidu.com/s/1FfDSsxlBMUPsJXjbxKEIhQ 
 code：kpqa 
+
+(Google Drive)link: https://drive.google.com/file/d/16owGAILT0uH8U5oMJrh2fwYGWUXhDpDc/view?usp=sharing
