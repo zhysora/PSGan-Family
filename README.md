@@ -86,3 +86,19 @@ WV-2_64: data from WorldView-2 satellite, MS images cut into (64, 64, 4), PAN im
 code：kpqa 
 
 (Google Drive)link: https://drive.google.com/file/d/16owGAILT0uH8U5oMJrh2fwYGWUXhDpDc/view?usp=sharing
+
+# Reference Environment
+```
+Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-142-generic x86_64)
+Python 3.6.11
+```
+main python packages:
+```
+# Name          Version
+gdal            3.1.2
+matplotlib      3.3.2
+numpy           1.19.1
+scikit-image    0.17.2
+scipy           1.5.2
+tensorflow-gpu  1.3.0
+```
