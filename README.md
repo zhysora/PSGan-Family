@@ -1,6 +1,6 @@
 # How to Use this Project
 
-This repo is the official implementation for [PSGAN: A Generative Adversarial Network for Remote Sensing Image Pan-sharpening](https://arxiv.org/pdf/2203.02916). 
+This repo is the official implementation for [PSGAN: A Generative Adversarial Network for Remote Sensing Image Pan-sharpening](https://ieeexplore.ieee.org/document/9306912). 
 The paper is accepted to TGRS2020.
 
 1. build your own dataset
@@ -62,7 +62,7 @@ This project implement various sate-of-art Pan-Sharpening models in Tensorflow. 
 ![image](src/psgan.png)
 
 ## psgan
-psgan: psgan orign   
+psgan: psgan origin   
 
 fu-psgan: upsample the MS images using strided convolution 
 
@@ -84,6 +84,29 @@ GF-1_64: data from GaoFen-1 satellite, MS images cut into (64, 64, 4), PAN image
 
 WV-2_64: data from WorldView-2 satellite, MS images cut into (64, 64, 4), PAN images cut into (256, 256)
 
+# Raw Images 
+
+(Baidu Drive)link：https://pan.baidu.com/s/1FfDSsxlBMUPsJXjbxKEIhQ 
+code：kpqa 
+
+(Google Drive)link: https://drive.google.com/file/d/16owGAILT0uH8U5oMJrh2fwYGWUXhDpDc/view?usp=sharing
+
+# Reference Environment
+```
+Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-142-generic x86_64)
+Python 3.6.11
+```
+main python packages:
+```
+# Name          Version
+gdal            3.1.2
+matplotlib      3.3.2
+numpy           1.19.1
+scikit-image    0.17.2
+scipy           1.5.2
+tensorflow-gpu  1.3.0
+```
+
 # Citing PSGAN
 Consider cite PSGAN in your publications if it helps your research.
 
@@ -97,4 +120,3 @@ Consider cite PSGAN in your publications if it helps your research.
   number={},
   pages={1-16},
 }
-```
