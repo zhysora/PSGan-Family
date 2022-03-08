@@ -106,3 +106,5 @@ ENV/
 *.sh
 out/
 /out
+
+/.idea

@@ -1,6 +1,7 @@
 # How to Use this Project
 
-This project is an experiment comparing the performance among the various state-of-art models in Pan-Sharpening filed. To utilize the codes, you can follow these steps:
+This repo is the official implementation for [PSGAN: A Generative Adversarial Network for Remote Sensing Image Pan-sharpening](https://arxiv.org/pdf/2203.02916). 
+The paper is accepted to TGRS2020.
 
 1. build your own dataset
 2. train and test the models 
@@ -57,6 +58,9 @@ cd eval; nohup python -u eval_one.py --input_dir ** --num ** --blk ** --row ** -
 
 This project implement various sate-of-art Pan-Sharpening models in Tensorflow. The related codes are below 'model' folder, and each model one folder.
 
+## Main Architecture
+![image](src/psgan.png)
+
 ## psgan
 psgan: psgan orign   
 
@@ -79,3 +83,18 @@ GF-2_64: data from GaoFen-2 satellite, MS images cut into (64, 64, 4), PAN image
 GF-1_64: data from GaoFen-1 satellite, MS images cut into (64, 64, 4), PAN images cut into (256, 256)
 
 WV-2_64: data from WorldView-2 satellite, MS images cut into (64, 64, 4), PAN images cut into (256, 256)
+
+# Citing PSGAN
+Consider cite PSGAN in your publications if it helps your research.
+
+```
+@article{PSGAN,
+  author={Liu, Qingjie and Zhou, Huanyu and Xu, Qizhi and Liu, Xiangyu and Wang, Yunhong},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={PSGAN: A Generative Adversarial Network for Remote Sensing Image Pan-Sharpening}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-16},
+}
+```
