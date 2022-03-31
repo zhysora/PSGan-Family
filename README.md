@@ -1,7 +1,7 @@
 # How to Use this Project
 
 This repo is the official implementation for [PSGAN: A Generative Adversarial Network for Remote Sensing Image Pan-sharpening](https://ieeexplore.ieee.org/document/9306912). 
-The paper is accepted to TGRS2020.
+The paper is published in TGRS2021.
 
 1. build your own dataset
 2. train and test the models 
