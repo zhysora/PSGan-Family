@@ -111,12 +111,13 @@ tensorflow-gpu  1.3.0
 Consider cite PSGAN in your publications if it helps your research.
 
 ```
-@article{PSGAN,
+@ARTICLE{9306912,
   author={Liu, Qingjie and Zhou, Huanyu and Xu, Qizhi and Liu, Xiangyu and Wang, Yunhong},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={PSGAN: A Generative Adversarial Network for Remote Sensing Image Pan-Sharpening}, 
-  year={2020},
-  volume={},
-  number={},
-  pages={1-16},
+  year={2021},
+  volume={59},
+  number={12},
+  pages={10227-10242},
+  doi={10.1109/TGRS.2020.3042974}}
 }
